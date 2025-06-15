@@ -1,0 +1,28 @@
+[project]
+name = "python-wsgi-test-01"
+version = "0.1"
+description = "this is a sample wsgi app"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Philip Kalinsky"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/psychotechnik/python-wsgi-test-01"
+Changelog = "https://github.com/psychotechnik/python-wsgi-test-01/releases"
+Issues = "https://github.com/psychotechnik/python-wsgi-test-01/issues"
+CI = "https://github.com/psychotechnik/python-wsgi-test-01/actions"
+
+
+[project.optional-dependencies]
+test = ["pytest"]
